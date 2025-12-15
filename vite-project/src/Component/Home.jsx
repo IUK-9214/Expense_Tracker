@@ -65,7 +65,7 @@ export default function Home() {
         setTransaction(prev => {
 
             prev.filter((item, i) => i !== index)
-
+            
         });
 
     };
